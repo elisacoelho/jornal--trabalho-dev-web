@@ -343,3 +343,16 @@ main {
     
     margin-left: 100px;
 }
+
+
+.dicas {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap:30px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    grid-column: 1 / span 3;
+}
+
