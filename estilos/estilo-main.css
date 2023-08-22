@@ -116,7 +116,7 @@ body {
 
 
 nav {
-    display: flex;
+    display: flex;  
     justify-content: center;
     height: 50px;
 }
@@ -342,6 +342,7 @@ main {
 .logo {
     
     margin-left: 100px;
+    margin-bottom: 300px;
 }
 
 
@@ -356,3 +357,39 @@ main {
     grid-column: 1 / span 3;
 }
 
+.conteudo {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-column: 1 / span 1;
+    gap: 30px;
+    margin-right: 800px;
+    font-size: 15px;
+
+
+
+}
+
+.titulo {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    color: rgba(255, 0, 0, 1);
+}
+
+
+.mais-lidas {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 30px;
+    padding: 20px;
+    margin: 10px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    color: rgba(204, 0, 0, 1);
+    
+}
+
+hr {
+    color: gray;
+    opacity: 50%;
+}
