@@ -188,6 +188,7 @@ nav>a:hover::after {
 .texto {
     font-size: 15px;
     margin-left: -150px;
+
 }
 
 
@@ -250,7 +251,7 @@ nav>a:hover::after {
     margin-top: 50px;
     font-family: var(--font-principal);
     color: aliceblue;
-    font-size: 18px;
+    font-size: 22pxpx;
     justify-content: center;
 }
 
@@ -282,6 +283,10 @@ main {
     grid-template-columns: 1fr 1fr;
 }
 
+#img {
+    margin-left: 20px;
+    
+}
 
 .propaganda {
     display: grid;
